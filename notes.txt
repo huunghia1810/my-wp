@@ -1,0 +1,27 @@
+;XDebug intel chip 7.4
+zend_extension="/usr/local/Cellar/php@7.4/7.4.33_2/pecl/20190902/xdebug.so"
+xdebug.remote_autostart=1
+xdebug.remote_port=9003
+xdebug.remote_enable=1
+xdebug.profiler_enable=1
+xdebug.profiler_output_dir="/tmp"
+xdebug.idekey=phpstorm
+xdebug.remote_host=127.0.0.1
+
+-------------------------------------------------
+lsof -n -i4TCP:9003
+kill -9 PID
+-------------------------------------------------
+php directory
+/usr/local/etc/php
+
+httpd directory
+/usr/local/etc/httpd
+-------------------------------------------------
+sudo apachectl restart
+-------------------------------------------------
+
+
+----------------------resource---------------------------
+https://developer.wordpress.org/themes/basics/main-stylesheet-style-css/
+
