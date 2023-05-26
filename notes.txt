@@ -25,3 +25,12 @@ sudo apachectl restart
 ----------------------resource---------------------------
 https://developer.wordpress.org/themes/basics/main-stylesheet-style-css/
 
+----------------------theme.json---------------------------
+global style
+    v1: https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/
+    v2: https://developer.wordpress.org/block-editor/reference-guides/theme-json-reference/theme-json-living/#settings
+
+block: https://developer.wordpress.org/block-editor/
+https://developer.wordpress.org/block-editor/reference-guides/core-blocks/
+
+color: https://gist.github.com/jaskokoyn/0f1765bc29df905a33b553cbb654dd0c
