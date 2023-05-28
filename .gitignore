@@ -9,3 +9,4 @@ uploads/*
 assets/extplorer/ftp_tmp/*
 assets/extplorer/config/bookmarks_extplorer_pipicity.php
 assets/temp/
+/wp-content/uploads/

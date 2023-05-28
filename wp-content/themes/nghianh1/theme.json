@@ -2,6 +2,7 @@
   "version": 2,
   "$schema": "https://schemas.wp.org/trunk/theme.json",
   "settings": {
+    "appearanceTools": true,
     "color": {
       "defaultPalette": false,
       "palette": [
@@ -20,6 +21,21 @@
         { "slug": "u-info", "color": "rgb(96 165 250)", "name": "Udemy Info" },
         { "slug": "u-warning", "color": "rgb(251 146 60)", "name": "Udemy Warning" },
         { "slug": "u-danger", "color": "rgb(236 72 153)", "name": "Udemy Danger" }
+      ],
+      "background": true,
+      "text": true,
+      "link": false,
+      "custom": false,
+      "duotone": [
+        { "slug": "n-pink-sunset", "colors": ["#11245e","#dc4379"], "name": "Nghia Pink Sunset" }
+      ],
+      "defaultGradients": false,
+      "gradients": [
+        {
+          "slug": "n-summer-dog",
+          "name": "Nghia Summer Dog",
+          "gradient": "linear-gradient(#a8ff78, #78ffd6)"
+        }
       ]
     },
     "blocks": {
@@ -28,9 +44,150 @@
           "defaultPalette": true,
           "palette": [
             { "slug": "n-primary", "color": "rgb(236 72 153)", "name": "Nghia Primary" }
+          ],
+          "link": true,
+          "custom": true,
+          "gradients": [],
+          "customGradient": false
+        },
+        "typography": {
+          "fontFamilies": [
+            {
+              "fontFamily": "Pacifico, sans-serif",
+              "slug": "u-pacifico",
+              "name": "Nghia Pacifico"
+            }
           ]
         }
+      },
+      "core/cover": {
+        "color": {
+          "duotone": [],
+          "customDuotone": false
+        }
+      },
+      "core/preformatted": {
+        "typography": {
+          "fontSizes": [],
+          "customFontSize": false
+        }
       }
+    },
+    "border": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Rubik, sans-serif",
+          "slug": "u-rubik",
+          "name": "Nghia Rubik"
+        }
+      ],
+      "fontSizes": [
+        {
+          "slug": "small",
+          "size": "0.75rem",
+          "name": "Small"
+        },
+        {
+          "slug": "medium",
+          "size": "1.25rem",
+          "name": "Medium"
+        },
+        {
+          "slug": "large",
+          "size": "2.25rem",
+          "name": "Large"
+        },
+        {
+          "slug": "x-large",
+          "size": "3rem",
+          "name": "Extra Large"
+        },
+        {
+          "slug": "gigantic",
+          "size": "3.75rem",
+          "name": "Gigantic"
+        }
+      ],
+      "lineHeight": true,
+      "dropCap": true,
+      "fontStyle": true,
+      "fontWeight": true,
+      "textTransform": true,
+      "letterSpacing": true,
+      "textDecoration": true
+    },
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1100px"
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "units": [ "px", "em", "rem", "vh", "vw", "%" ],
+      "blockGap": true
+    }
+  },
+  "styles": {
+    "color": {
+      "text": "var(--wp--preset--color--u-gray-600)",
+      "background": "var(--wp--preset--color--white)"
+    },
+    "elements": {
+      "link": {
+        "color": {
+          "text": "var(--wp--preset--color--u-primary)"
+        }
+      }
+    },
+    "blocks": {
+      "core/button": {
+        "color": {
+          "gradient": "var(--wp--preset--gradient--n-summer-dog)"
+        }
+      },
+      "core/pullquote": {
+        "border": {
+          "width": "2px",
+          "color": "var(--wp--preset--color--u-primary)",
+          "radius": "10px",
+          "style": "solid"
+        }
+      },
+      "core/site-title": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font--family--u-pacifico)"
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font--family--u-rubik)",
+      "fontSize": "16px",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "lineHeight": "inherit",
+      "textDecoration": "none",
+      "textTransform": "none"
+    },
+    "spacing": {
+      "margin": {
+        "top": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "right": "0px"
+      },
+      "padding": {
+        "top": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "right": "0px"
+      },
+      "blockGap": "6rem"
     }
   }
 }
