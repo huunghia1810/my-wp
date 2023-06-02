@@ -42,3 +42,9 @@ theme.json https://developer.wordpress.org/block-editor/how-to-guides/themes/the
 standard font site: https://richtabor.com/standardizing-theme-json-font-sizes/
 
 font size: https://fullsiteediting.com/lessons/theme-json-typography-options/
+
+hook:
+    https://developer.wordpress.org/plugins/hooks/
+    https://codex.wordpress.org/Plugin_API/Action_Reference
+
+
